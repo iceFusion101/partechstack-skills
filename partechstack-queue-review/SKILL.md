@@ -1,11 +1,12 @@
 ---
 name: partechstack-queue-review
-description: |
-  Review the partechstack publishing queue in Notion and recommend three articles for the next edition.
-  Use this skill when Pat says "review the queue," "what should we publish next," "pick three articles,"
+description: Review the partechstack publishing queue in Notion and recommend three articles for the next edition.
+when_to_use: |
+  Trigger when Pat says "review the queue," "what should we publish next," "pick three articles,"
   "suggest articles for partechstack," "what's ready to publish," "queue review," or any variation of
   selecting articles from the partechstack queue. Also trigger when Pat mentions choosing, picking,
   or prioritizing partechstack content, reviewing what's in the pipeline, or planning the next edition.
+allowed-tools: mcp__claude_ai_Notion__notion-query-database-view, WebFetch
 ---
 
 # partechstack Queue Review
