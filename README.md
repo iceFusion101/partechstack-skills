@@ -9,3 +9,4 @@ Claude skills for the partechstack publication workflow.
 ## Installing a skill
 
 Skills are distributed as `.skill` files (zip archives containing a `SKILL.md` manifest). Install by placing the unzipped contents into your Claude skills directory, or upload the `.skill` file directly where supported.
+# partechstack-skills
